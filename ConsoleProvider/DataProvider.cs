@@ -14,6 +14,9 @@ namespace ConsoleDataProvider
         public void ShowHello(string say)
         {
             Console.WriteLine(say);
+
+            //for test purpose set the say to Response
+            this.Response = say;
         }
 
     }

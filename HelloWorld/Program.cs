@@ -20,7 +20,7 @@ namespace HelloWorldDemo
 
             IDataProvider consoleProvider = dataProviderFactory.CreateDataProvider("ConsoleDataAccess");
 
-            Console.WriteLine(consoleProvider);
+            consoleProvider.ShowHello("hello World - console");
      
         }
 
